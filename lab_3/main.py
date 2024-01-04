@@ -11,7 +11,7 @@ data_transformed = np.dot(data_file - translation_vector, rotation_matrix) + tra
 
 plt.figure(figsize=(9.6, 9.6))
 
-plt.scatter(data_transformed[:, 0], data_transformed[:, 1], color='purple')
+plt.scatter(data_transformed[:, 0], data_transformed[:, 1], color='blue')
 
 plt.savefig('transformed.png')
 
